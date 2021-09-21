@@ -25,13 +25,13 @@ const students = [
   ];
   
   convertArrayToObject = (students) => {
-    let obj_set = [];
+    let objSet = [];
   
     for (let value of students) {
-      obj_set.push(
+      objSet.push(
         Object.assign({ name: value[0], skills: value[1], scores: value[2] })
       );
     }
-    return obj_set;
+    return objSet;
   };
-  // console.log(convertArrayToObject(students));
+  console.log(convertArrayToObject(students));

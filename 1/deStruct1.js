@@ -30,8 +30,8 @@ const Destruction = (student) => {
     }
   });
 
-  console.log(` Nmae: ${name}, Skills : ${skills}, Scores ${scores}`);
+  console.log(` Name: ${name}, Skills :${[skills]}, Scores ${scores}`);
   console.log(`JsScore : ${jsScore} ReactScore : ${reactScore}`);
 };
 
-// Destruction(student);
+Destruction(student);
